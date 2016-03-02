@@ -34,6 +34,7 @@
 		4E9F4B391C868C840097536C /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F4B251C868C840097536C /* RSColorPickerView.m */; };
 		4E9F4B3A1C868C840097536C /* RSGenerateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F4B271C868C840097536C /* RSGenerateOperation.m */; };
 		4E9F4B3B1C868C840097536C /* RSSelectionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F4B291C868C840097536C /* RSSelectionLayer.m */; };
+		4E9F4B3E1C86D62F0097536C /* SerialPrintlnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F4B3D1C86D62F0097536C /* SerialPrintlnViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,8 @@
 		4E9F4B271C868C840097536C /* RSGenerateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGenerateOperation.m; sourceTree = "<group>"; };
 		4E9F4B281C868C840097536C /* RSSelectionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSelectionLayer.h; sourceTree = "<group>"; };
 		4E9F4B291C868C840097536C /* RSSelectionLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSelectionLayer.m; sourceTree = "<group>"; };
+		4E9F4B3C1C86D62F0097536C /* SerialPrintlnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPrintlnViewController.h; sourceTree = "<group>"; };
+		4E9F4B3D1C86D62F0097536C /* SerialPrintlnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialPrintlnViewController.m; sourceTree = "<group>"; };
 		554A082C8E1A17FB3EB84182 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5B88145E7286026C3875ACFA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFC5F6EF6F2ECE734B817A9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 			children = (
 				4E9F4AFE1C868B340097536C /* ColorPickViewController.h */,
 				4E9F4AFF1C868B340097536C /* ColorPickViewController.m */,
+				4E9F4B3C1C86D62F0097536C /* SerialPrintlnViewController.h */,
+				4E9F4B3D1C86D62F0097536C /* SerialPrintlnViewController.m */,
 			);
 			path = BaseFunction;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				4E9F4B321C868C840097536C /* BitmapCropManipulator.m in Sources */,
 				4E9F4B2E1C868C840097536C /* UIImage+ANImageBitmapRep.m in Sources */,
 				4E9F4B2B1C868C840097536C /* BitmapContextRep.m in Sources */,
+				4E9F4B3E1C86D62F0097536C /* SerialPrintlnViewController.m in Sources */,
 				4E9F4B2F1C868C840097536C /* CGContextCreator.m in Sources */,
 				4E9F4AFA1C8574BA0097536C /* AppDelegate.m in Sources */,
 				4E9F4B001C868B340097536C /* ColorPickViewController.m in Sources */,
